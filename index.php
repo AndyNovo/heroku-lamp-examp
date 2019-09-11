@@ -1,3 +1,3 @@
 <?php
-  print_r("hi there");
+  print_r("<h1>hi there</h1>");
 ?>
