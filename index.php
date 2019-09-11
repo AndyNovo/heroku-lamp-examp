@@ -3,6 +3,8 @@
 
     //this is the basic way of getting a database handler from PDO, PHP's built in quasi-ORM
     $dbhandle = new PDO("sqlite:scrabble.sqlite") or die("Failed to open DB");
+    print_r("after");
+    print_r($dbhandle);
     if (!$dbhandle) die ($error);
  
     //this is a sample query which gets some data, the order by part shuffles the results
